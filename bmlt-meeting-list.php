@@ -209,7 +209,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "S&#246;n" : "S&#246;ndag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "S&#248;" : "S&#248;ndag");
-                }
+                } elseif ( $language == 'it') {
+					$data = ($abbreviate ? 'Dom' : "Domenica");
 			} elseif ( $day == 2 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Mon' : "Monday");
@@ -229,7 +230,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "M&#229;n" : "M&#229;ndag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "Ma" : "Mandag");
-                }
+                } elseif ( $language == 'it') {
+					$data = ($abbreviate ? 'Lun' : "Lunedi");
 			} elseif ( $day == 3 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Tue' : "Tuesday");
@@ -249,7 +251,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "Tis" : "Tisdag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "Ti" : "Tirsdag");
-                }
+                } elseif ( $language == 'it') {
+					$data = ($abbreviate ? 'Mar' : "Martedi");
 			} elseif ( $day == 4 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Wed' : "Wednesday");
@@ -269,7 +272,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "Ons" : "Onsdag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "On" : "Onsdag");
-                }
+                } elseif ( $language == 'it_IT') {
+					$data = ($abbreviate ? 'Mer' : "Mercoledi");
 			} elseif ( $day == 5 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Thu' : "Thursday");
@@ -289,7 +293,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "Tors" : "Torsdag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "To" : "Torsdag");
-                }
+                } elseif ( $language == 'it') {
+					$data = ($abbreviate ? 'Gio' : "Giovedi");
 			} elseif ( $day == 6 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Fri' : "Friday");
@@ -309,7 +314,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "Fre" : "Fredag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "Fr" : "Fredag");
-                }
+                } elseif ( $language == 'it') {
+					$data = ($abbreviate ? 'Ven' : "Venerdi");
 			} elseif ( $day == 7 ) {
 				if ( $language == 'en' || $language == 'en' ) {
 					$data = ($abbreviate ? 'Sat' : "Saturday");
@@ -329,7 +335,8 @@ if (!class_exists("Bread")) {
 					$data = ($abbreviate ? "L&#246;r" : "L&#246;rdag");
 				} elseif ( $language == 'dk') {
                     $data = ($abbreviate ? "L&#248;" : "L&#248;rdag");
-                }
+                } elseif ( $language == 'it_IT') {
+					$data = ($abbreviate ? 'Sab' : "Sabato");
 			}
 			
 			Return utf8_encode($data);
