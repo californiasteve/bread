@@ -977,7 +977,7 @@ if (!class_exists("Bread")) {
 						
 						if ( $this->options['weekday_language'] === 'fr' ) {
 							$cont = '(suite)';							
-						} else if ( $this->options['weekday_language'] === 'se' || $this->options['weekday_language'] === 'dk' ) {
+						} else if ( $this->options['weekday_language'] === 'se' || $this->options['weekday_language'] === 'dk' || $this->options['weekday_language'] === 'it' ) {
                             $cont = '(forts)';
                         } else {
 							$cont = '(cont)';
