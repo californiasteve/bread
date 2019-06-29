@@ -343,7 +343,7 @@ if (!class_exists("Bread")) {
                     $data = ($abbreviate ? "L&#248;" : "L&#248;rdag");
                 } elseif ( $language == 'it') {
                     $data = ($abbreviate ? "Sab" : "Sabato");
-                }");
+                }
 			}
 			
 			Return utf8_encode($data);
